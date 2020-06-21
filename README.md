@@ -1,3 +1,7 @@
+`#######################################################################################################################################`
+                                                        `swipe down for README by the author`
+`#######################################################################################################################################`
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -12,10 +16,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -66,3 +66,61 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+#########################################################################################################################################
+#########################################################################################################################################
+#########################################################################################################################################
+#########################################################################################################################################
+#########################################################################################################################################
+                                                    README by MANOJ MORE
+#########################################################################################################################################
+`\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\`
+
+1. Before stating to analyze or work on this project please run `npm install` that will install all the dependencies.
+2. Afte that please make sure you include the neccesary files in this root directoy that i will provide with the mail the most important 
+one being, `.env` file make sure to add and save it in the root directory 
+3. To start the project please run `npm start`
+4. Folder Structure:
+                    src
+                        -admin `contains all the components for admin operations`
+                            -AddCategory.js `component to add new category in the database`
+                            -AddProduct.js `component to add new product in the database`
+                            -ManageProducts `component to manage (update, delete) all the available products in the database`
+                            -Orders.js `component to check orders given by people and mark their progess resp.`
+                            -UpdateCategory.js `Update the category in the database`
+                            -UpdatePoduct.js `Update the product in the database`
+                            -auth `Contains mainly authorization middleware sort of components for user authentication(whether admin or normal user`
+                            -AdminRoute.js `Checks if the comming request is from admin or noormal user approves admin`
+                            -index.js `some important methods for signup signin and so on`
+                            -PrivateRoute.js `Checks if the comming request is from admin or noormal user approves normal user`
+                        -core
+                            -About.js
+                            -ApiCore.js
+                            -Card.js
+                            -Cart.js
+                            -CartHelpers.js
+                            -Checkbox.js
+                            -Checkout.js
+                            -FixedPrice.js
+                            -Home.js
+                            -Layout.js
+                            -Menu.js
+                            -Product.js
+                            -RadioBox.js
+                            -Search.js
+                            -Shop.js
+                            -ShowImage.js
+                        -user
+                            -AminDashboard.js
+                            -ApiUser.js
+                            -Profile.js
+                            -Signin.js
+                            -Signup.js
+                            -UserDashboard.js
+                        -App.js `Contains all the driving logic (routing logic) for the web app`
+                        -config.js `regular function of config`
+                        -index.js `execution start`
+                        -styles.css
+
+5.  By default this app runs on PORT 3000 keep it that way if you wish to run this as is by importing the env files given in the mail
+for front end and backend because back end runs on port 3001
+6. Please contact for further quiries, feedbacks, ammendments.
